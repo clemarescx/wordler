@@ -38,13 +38,13 @@ xx^x!
 we would run:
 
 ```shell
-cargo r --release -- "..a.[^s]" sa bot
+cargo r --release -- "..a.[^s]" s bot
 ```
 
 which gives us a list of all words that:
 
 - don't contain the characters `b`, `o`, or `t`
-- do contain the character `s`
+- do contain the characters `s`
 - has `a` as third character
 
 ## Next
