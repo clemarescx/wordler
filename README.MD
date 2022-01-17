@@ -8,7 +8,7 @@ This script narrows down the list of valid Wordle words given known data from pr
 
 Rust 1.58
 
-## Usage:
+## Usage
 
 ```shell
 cargo r --release -- "<pattern>" <included_chars> <excluded_chars>
